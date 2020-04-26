@@ -20,5 +20,6 @@ public class Execption_dodolffound extends Exception
             }
             p = p.pere ;
         }
+        System.out.println("Pages parcourues :"+ pageWiki.pageVisite.size());
     }
 }
